@@ -1,4 +1,4 @@
-package src.ATB5xJavaPractice;
+package src.ATB5xJavaPractice.basics_23Dec;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package src.ATB5xJavaPractice;
+package src.ATB5xJavaPractice.basics_23Dec;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ public class Dec23_prog15 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number ");
         int num = sc.nextInt();
-        int i=0;
-        if (num == 0)
+        int i;
+        if (num == 0 || num == 1)
             System.out.println(num + " is not a prime number");
         else {
             for (i = 2; i < 9; i++) {
